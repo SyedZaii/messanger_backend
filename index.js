@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: 'http://messanger-frontend-pi.vercel.app',
+    origin: 'https://messanger-frontend-pi.vercel.app',
     methods: ['GET', 'POST'],
     credentials: true
   }
